@@ -1,11 +1,12 @@
 {
   "name": "test_verstka",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test task for TeamLead",
+  "homepage": "https://dumopolis.github.io/test_verstka",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel index.html",
-    "built": "parcel build index.html --dist-dir build",
-    "predeploy": "npm run build",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir build",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],

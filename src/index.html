@@ -5,87 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 
 
     <title>LevelUp</title>
 </head>
 
 <body>
-    <video autoplay muted loop class="video">
-        <source src="./src/VIDEO/smoke.mp4" type="video/mp4">
+    <video autoplay muted loop class="video desktop">
+        <source src="./VIDEO/smoke.mp4" type="video/mp4">
+     
     </video>
-    
 
-        <header class="promo scroll" data-section-name="header">
-            <div class=" promoTitle promoTitle-main">
-                <h1>LevelUp</h1>
+    <video autoplay muted loop class="video mobile">
+        <source src="./VIDEO/smoke-mobile.mp4" type="video/mp4">
+     
+    </video>
+
+    <header class="promo scroll" data-section-name="header">
+        <div class=" promoTitle promoTitle-main">
+            <h1>LevelUp</h1>
+        </div>
+        <div class="promoContent">
+            <div class="productPhoto promoProductPhoto">
+
             </div>
-            <div class="promoContent">
-                <div class="productPhoto promoProductPhoto">
-    
-                </div>
-                <div class="promoCharacteristics">
-                    <ul class="list">
-                        <li class="listItem">Lorem ipsum dolor sit, amet consectetur </li>
-                        <li class="listItem">Lorem ipsum dolor sit, amet consectetur </li>
-                        <li class="listItem">Lorem ipsum dolor sit, amet consectetur </li>
-    
-                    </ul>
-                    <button class="button">Place an order</button>
-                </div>
-    
+            <div class="promoCharacteristics">
+                <ul class="list">
+                    <li class="listItem">Lorem ipsum dolor sit, amet consectetur </li>
+                    <li class="listItem">Lorem ipsum dolor sit, amet consectetur </li>
+                    <li class="listItem">Lorem ipsum dolor sit, amet consectetur </li>
+
+                </ul>
+                <button class="button">Place an order</button>
             </div>
-    
-    
-        </header>
-    
+
+        </div>
+
+
+    </header>
+
     <main>
         <div class="gradient">
-           
-               <div class="productComposition scroll" data-section-name="composition">
-                   <div class="promoTitle">
-                       <h1>Ingredients</h1>
-                   </div>
-                   <div class="composition">
-                       <div class="ingredients">
-                           <div class="ingredient ingredientMint">
-                               <div class="mint ingredientIcon"></div>
-                               Lorem
-                           </div>
-                           <div class="ingredient ingredientBasil">
-                               <div class="basil ingredientIcon"></div>
-                               Lorem
-                           </div>
-                           <div class="ingredient ingredientChia">
-                               <div class="chia ingredientIcon"></div>
-                               Lorem
-                           </div>
-                       </div>
-                       <div class="compositionProductPhoto">
-                           <div class="productPhoto ">
-                           </div>
-                           <button class="button">Place an order</button>
-                       </div>
-                       <div class="ingredients ingredientCapsule">
-                           <div class="ingredient">
-                               <div class="capsule  ingredientIcon"></div>
-                               Lorem
-                           </div>
-                           <div class="ingredient ingredientMilk">
-                               <div class="milk ingredientIcon"></div>
-                               Lorem
-                           </div>
-                           <div class="ingredient ingredientFishOil">
-                               <div class="fishOil ingredientIcon"></div>
-                               Lorem
-                           </div>
-   
-   
-                       </div>
-                   </div>
-               </div>
-           
+
+            <div class="productComposition scroll" data-section-name="composition">
+                <div class="promoTitle">
+                    <h1>Ingredients</h1>
+                </div>
+                <div class="composition">
+                    <div class="ingredients">
+                        <div class="ingredient ingredientMint">
+                            <div class="mint ingredientIcon"></div>
+                            Lorem
+                        </div>
+                        <div class="ingredient ingredientBasil">
+                            <div class="basil ingredientIcon"></div>
+                            Lorem
+                        </div>
+                        <div class="ingredient ingredientChia">
+                            <div class="chia ingredientIcon"></div>
+                            Lorem
+                        </div>
+                    </div>
+                    <div class="compositionProductPhoto">
+                        <div class="productPhoto ">
+                        </div>
+                        <button class="button">Place an order</button>
+                    </div>
+                    <div class="ingredients ingredientCapsule">
+                        <div class="ingredient">
+                            <div class="capsule  ingredientIcon"></div>
+                            Lorem
+                        </div>
+                        <div class="ingredient ingredientMilk">
+                            <div class="milk ingredientIcon"></div>
+                            Lorem
+                        </div>
+                        <div class="ingredient ingredientFishOil">
+                            <div class="fishOil ingredientIcon"></div>
+                            Lorem
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
             <div class="carouselSlide scroll" data-section-name="carousel">
 
                 <div class="promoTitle">
@@ -96,7 +101,7 @@
 
                         <div class=" comment">
                             <div class="userPhoto">
-                                <img class="userPhoto" src="./src/IMG/user.jpeg">
+                                <img class="userPhoto" src="./IMG/user.jpeg">
                                 <span>Den</span>
                             </div>
                             <div class="userComment">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -106,7 +111,7 @@
 
                         <div class="comment">
                             <div class="userPhoto">
-                                <img class="userPhoto" src="./src/IMG/user.jpeg">
+                                <img class="userPhoto" src="./IMG/user.jpeg">
                                 <span>Jack</span>
                             </div>
                             <div class="userComment">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
@@ -125,21 +130,23 @@
 
                         <div class="comment">
                             <div class="userPhoto">
-                                <img class="userPhoto" src="./src/IMG/user.jpeg">
+                                <img class="userPhoto" src="./IMG/user.jpeg">
                                 <span>Mike</span>
                             </div>
                             <div class="userComment">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
-                                accusamus eum illum itaque fugit fuga, in ea minima nemo repellat dignissimos quod commodi
-                                earum provident hic reprehenderit voluptate ducimus incidunt laboriosam magnam excepturi.
+                                accusamus eum illum itaque fugit fuga, in ea minima nemo repellat dignissimos quod
+                                commodi
+                                earum provident hic reprehenderit voluptate ducimus incidunt laboriosam magnam
+                                excepturi.
                                 Vero, laboriosam molestiae.</div>
-                            </div>
-                            
-                            
-                            
                         </div>
-                        <button class="button">Place an order</button>
+
+
+
                     </div>
+                    <button class="button">Place an order</button>
                 </div>
+            </div>
             <div class="secondPromo promo scroll" data-section-name="description">
                 <div class="promoTitle">
                     <h1>Characteristics</h1>
@@ -197,15 +204,15 @@
                 <div class="orderFormMain">
                     <form class="form">
                         <div class="label">
-                        <span>Name</span>
-                        <span class="prompt promptName">Ivan</span>
+                            <span>Name</span>
+                            <span class="prompt promptName">Ivan</span>
                         </div>
-                        <input class='input light name' type="text" >
+                        <input class='input light name' type="text">
                         <div class="label">
                             <span>Phone number</span>
                             <span class=" prompt promptPhone">79201234567</span>
-                            </div>
-                        <input class='input light phone' type="number" >
+                        </div>
+                        <input class='input light phone' type="number">
                         <button class='button submit' type="submit">O R D E R</button>
                     </form>
                     <div class="productPhoto">
@@ -218,9 +225,9 @@
             </div>
         </div>
     </main>
-   
-    
-    <script type="module" src="src/JS/main.js"></script>
+
+
+    <script type="module" src="./JS/main.js"></script>
 </body>
 
 </html>
